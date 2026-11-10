@@ -1,0 +1,42 @@
+# --- Build output ---
+Debug/
+Release/
+*.elf
+*.map
+*.bin
+*.hex
+*.srec
+*.lst
+*.list
+*.o
+*.d
+*.a
+*.su
+*.crl
+*.cyclo
+*.bak
+
+# --- Logs ---
+*.log
+
+# --- STM32CubeIDE / Eclipse (machine-specific) ---
+.metadata/
+RemoteSystemsTempFiles/
+.settings/language.settings.xml
+.settings/org.eclipse.core.resources.prefs
+
+# --- OS ---
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Editor ---
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
